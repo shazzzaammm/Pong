@@ -3,7 +3,7 @@ class Ball {
     this.size = width / 100;
     this.position = createVector(width / 2, height / 2);
     this.velocity = createVector();
-    this.accel = width / 900.69;
+    this.accel = width / 420.69;
     this.speed = this.accel * 2;
     if (random() > 0.5) {
       this.velocity.x = -this.speed;
